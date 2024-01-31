@@ -1,2 +1,2 @@
 # lincolnzat.github.io
-Meu portfólio.
+Meu portfólio (em andamento).
