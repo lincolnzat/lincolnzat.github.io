@@ -75,9 +75,14 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 80px;
  }
 
  #sobre {
     color: white;
     font-size: 60px;
+ }
+
+ hr {
+    width: 50%;
  }
