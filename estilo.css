@@ -70,3 +70,14 @@ h3 {
  .container {
     margin-top: -50px;
  }
+
+ .container-sobre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ #sobre {
+    color: white;
+    font-size: 60px;
+ }
