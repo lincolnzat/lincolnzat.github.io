@@ -75,7 +75,7 @@ h3 {
     margin-top: -50px;
  }
 
- .container-sobre, .container-habilidades {
+ .container-sobre, .container-habilidades, .container-projetos {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -84,7 +84,7 @@ h3 {
     color:white;
  }
 
- #sobre, #habilidades {
+ #sobre, #habilidades, #projetos {
   font-size: 60px;
   
  }
@@ -118,3 +118,47 @@ h3 {
     list-style-type: none;
 
  }
+
+ footer {
+    color: white;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #232327;
+    text-align: center;
+ }
+
+ .info ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    list-style-type: none;
+    gap: 15px;
+ }
+
+ .info img {
+    width: 30px;
+    height: 30px;
+ }
+
+ .info p {
+   font-size: 26px;
+ }
+.projeto {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 600px;
+   height: 500px;
+   background-color: #434370;
+   border-radius: 20px;
+}
+
+.projeto img {
+   width: 95%;
+   height: 95%;
+   border-radius: 10px;
+   object-fit: cover;
+   
+}
