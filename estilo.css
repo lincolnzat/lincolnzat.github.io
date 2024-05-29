@@ -1,164 +1,123 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
 
 * {
     scroll-behavior: smooth;
 }
 
 body {
-    font-family: Outfit;
-    background-image: url(img/wave.png);
-    background-size: 1550px;
-    background-repeat: no-repeat;
-    background-color: #1d1d20;
+    font-family: Cabin;
+    background-image: url(img/wave.svg);
+    background-size: 1950px;
+    background-repeat: no-repeat; 
+    background-color: #000000;
+   
 }
 
-.nav-menu {
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
-    margin: 0;
-    padding: 0; 
-    background-color: #121214;
-    padding: 14px;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    overflow: hidden;
-}
-
-.nav-item {
+.nav-link{
+    font-size: 23px;
     color: white;
-    font-size: 25px;
 }
 
-.nav-item a {
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+.nav-link a:hover {
+    color: rgb(255, 183, 50);
 }
 
-.nav-item a:hover {
-    color: rgb(76, 50, 148);
+.text-center .p-3 {
+    color: white;
 }
 
-h1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.mb-4 img {
+    width: 30px;
+    height: 30px;
+}
+
+.mb-4 {
+    list-style: none;
+    display: inline-flex;
+    gap: 15px;
+
+}
+
+.container-hero h1 {
+    color: white;
     font-size: 60px;
-    color: white;
-    font-weight: 600;
 }
 
-.imgprincipal {
-    width: 290px;
-    height: 304px;
+.container-hero h3 {
+    color: white;
+    font-size: 22px;
+    
+}
+
+.container-hero{
     margin-top: 200px;
 }
 
-p {
-    text-align: center;
+hr {
+    color: white;
+    width: 50%;
+    margin: 0 auto;
+    
 }
 
-h3 {
-    color:white;
-    font-weight: 300;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: -48px;
- }
- 
- .container {
-    margin-top: -50px;
- }
+.container-sobre h2{
+    color: white;
+    font-size: 60px;
+}
 
- .container-sobre, .container-habilidades, .container-projetos {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 80px;
-    color:white;
- }
-
- #sobre, #habilidades, #projetos {
-  font-size: 60px;
-  
- }
-
- hr {
-    width: 50%;
- }
-
- #apresentação {
-    font-size: 20px;
-    padding: 10px;
-    margin-top: -50px;
- }
-
- .tecnologias ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 50px;
+.container-sobre h3 {
+    color: white;
     
- }
+}
 
- .tecnologias img {
+.container-tecnologias h2 {
+    color: white;
+    font-size: 60px;
+}
+
+.container-tecnologias ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 40px;
+
+}
+
+.container-tecnologias img {
     width: 50px;
     height: 50px;
-    margin-top: -50px;
- }
+}
 
- .tecnologias li {
-    list-style-type: none;
-
- }
-
- footer {
+.container-projetos h2 {
     color: white;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #232327;
-    text-align: center;
- }
+    font-size: 60px;
+}
 
- .info ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    list-style-type: none;
-    gap: 15px;
- }
+.container-projetos h3 {
+    color: white;
+    font-size: 60px;
+}
 
- .info img {
+.container-projetos li {
+    list-style: none;
     width: 30px;
-    height: 30px;
- }
+    height: 100%;
+    
+}
 
- .info p {
-   font-size: 26px;
- }
 .projeto {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   width: 600px;
-   height: 500px;
-   background-color: #434370;
-   border-radius: 20px;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    border-radius: 10px;
+    border-color: white;
 }
 
-.projeto img {
-   width: 95%;
-   height: 95%;
-   border-radius: 10px;
-   object-fit: cover;
-   
+.stack img {
+    width: 30px;
+    height: 100%;
 }
+
+#enfase {
+    color: rgb(255, 183, 50);
+}
+
