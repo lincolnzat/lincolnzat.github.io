@@ -18,7 +18,7 @@ body {
     color: white;
 }
 
-.nav-link a:hover {
+.nav-item a:hover {
     color: rgb(255, 183, 50);
 }
 
