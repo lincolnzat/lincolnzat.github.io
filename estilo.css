@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --yellow: #FFD43B;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Cabin;
+    background-color: var(--black);
+   
+}
+
+.nav-link{
+    font-size: 20px;
+    color: white;
+}
+
+.nav-item a:hover {
+    color: var(--yellow);
+}
+
+
+#enfase {
+    color: var(--yellow);
+}
+
+.light-mode {
+    background-color: var(--white);
+    color: var(--black);
+}
